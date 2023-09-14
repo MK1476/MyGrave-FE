@@ -1,0 +1,56 @@
+/* FileManager.css */
+.file-upload-container,
+.file-list-container,
+.file-delete-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px); /* Apply glassmorphism blur effect */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+input[type='file'] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005ea2;
+}
